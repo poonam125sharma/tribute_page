@@ -1,0 +1,107 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+html,body{
+    width: 100%;
+    height:100%;
+    font-family: 'Raleway', sans-serif;
+    background-color: #393839;
+    font-size:16px;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: white;
+}
+.jumbotron {
+    background-color: rgba(97, 61, 108, 0.91);
+    color:white;
+    max-height:100%; 
+
+}
+.well {
+    max-width: 100%;
+    max-height:500px;
+    background-color: #D7D5D5;
+    color: black;
+    margin-bottom: 20px;
+    
+}
+.well h4 {
+    font-weight: bold;
+}
+.content {
+    padding-top: 10px;
+}
+.para {
+    max-width: 100%;
+    margin:0 auto;
+    font-size: 16px;
+}
+.content .para {
+    max-width: 100%;
+    min-height: 110px;
+    font-size:16px;
+}
+
+ul li {
+    line-height: 2em;
+    font-size:16px;
+}
+ul.well {
+    max-width: 100%;
+    min-height: 800px;
+    background-color:transparent;
+    border-color:transparent;
+    color:white;
+    overflow:hidden;
+    text-overflow:scroll;
+
+}
+
+footer {
+    color:white;
+    padding-bottom: 20px;
+}
+
+a:hover {
+    color:white;
+}
+@media only screen and (min-width:480px) and (max-width:1600px)
+{
+    ul.well {
+        min-height: 800px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width:480px)
+{
+    ul.well {
+        min-height: 1300px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+    ul.well {
+        min-height: 1100px;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px)
+{
+    ul.well {
+        min-height: 1200px;
+    }
+}
